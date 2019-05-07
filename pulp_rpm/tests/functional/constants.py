@@ -63,6 +63,8 @@ RPM_SIGNED_FIXTURE_URL = urljoin(PULP_FIXTURES_BASE_URL, 'rpm-signed/')
 
 RPM_SINGLE_REQUEST_UPLOAD = urljoin(BASE_PATH, 'rpm/upload/')
 
+RPM_COPY_REQUEST = urljoin(BASE_PATH, 'rpm/copy/')
+
 RPM_UNSIGNED_FIXTURE_URL = urljoin(PULP_FIXTURES_BASE_URL, 'rpm-unsigned/')
 """The URL to a repository with unsigned RPM packages."""
 
